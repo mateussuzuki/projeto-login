@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projeto login</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <main>
+        <section id="login">
+            <div id="imagem">
+
+            </div>
+            <div id="formulario">
+                <h1>login</h1>
+                <p>Seja-Bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações</p>
+
+                <form action="cadastro.php" method="post" autocomplete="on">
+                    <fieldset>
+                        <p id="login">
+                            <label for="iemail"></label>
+                            <input type="email" name="email" id="iemail" required>
+                        </p>
+                    </fieldset>
+                    <p id="senha">
+                        <label for="isenha"></label>
+                        <input type="password" name="senha" id="isenha" required>
+                    </p>
+                    <p id="entrar">
+                        <input type="submit" value="Entrar">
+                    </p>
+                    <p id="forget">
+                        <input type="reset" value="Esqueci a senha">
+                    </p>
+                </form>
+            </div>
+
+        </section>
+    </main>
+    
+</body>
+</html>
