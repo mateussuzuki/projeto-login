@@ -32,16 +32,19 @@ section#login {
     transform: translate(-50%, -50%);
     overflow: hidden;
     background-color: white;
-    width: 250px;
+    width: 280px;
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px black;
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
     background: #5f2c82 url(../imagens/back-phone.jpg) no-repeat;
     background-size: cover;
     height: 200px;
+    display: block;
 
 }
 
@@ -52,4 +55,13 @@ section#login > div#formulario {
 
 form p#login {
     text-align: right;
+}
+
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario > p {
+    font-size: 0.8em;
 }
